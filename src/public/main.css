@@ -1,3 +1,97 @@
 .title {
     border-bottom: 2px solid black;
 }
+
+.profile{
+    box-shadow: 4px 4px black;
+}
+
+.card{
+    box-shadow: 4px 4px black;
+}
+
+.input input{
+    box-shadow: 4px 4px black;
+}
+
+.button a{
+    box-shadow: 4px 4px black;
+}   
+
+.dark .profile{
+    box-shadow: 4px 4px black;
+}
+
+.dark .card{
+    box-shadow: 4px 4px white;
+}
+
+/* .project-container .project-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-box img {
+    width: 100%;
+    transition: .5s ease;
+}
+
+.project-box:hover img {
+    transform: scale(1.1);
+}
+
+.project-box {
+    position: absolute;
+    width: 390px;
+    height: 260px;
+}
+
+.project-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 0rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+
+.project-box:hover .project-layer {
+    transform: translateY(0);
+}
+
+.project-layer h4 {
+    font-size: 3rem;
+}
+
+.project-layer p {
+    font-size: 1.6rem;
+    margin: .3rem 0 1rem;
+}
+
+.project-layer a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--text-color);
+    border-radius: 50%;
+}
+
+.project-layer a i {
+    font-size: 2rem;
+    color: var(--second-bg-color);
+}
+ */

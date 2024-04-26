@@ -1,7 +1,11 @@
-const title = document.querySelector(".title");
+const menuBar = document.querySelector(".menu-bar");
+const menuNav = document.querySelector(".menu")
+const menuBars = document.querySelector(".menu-bars")
 
-window.addEventListener("scroll", () => {
-    console.log(window.scrollY);
-  const windowPosition = window.scrollY > 0;
-  title.classList.toggle("scrolling-active", windowPosition);
+menuBar.addEventListener("click", () => {
+    menuNav.classList.toggle("dark");
+});
+
+menuBars.addEventListener("click", () => {
+    menuNav.classList.remove("dark");
 });
